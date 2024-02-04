@@ -1,0 +1,7 @@
+vendor/
+.vscode/
+.idea/
+app/config/config.php
+composer.lock
+.vagrant/
+.env

@@ -1,0 +1,35 @@
+{
+    "name": "ibugram",
+    "description": "A backend for IBUgram",
+    "keywords": [
+        "microframework",
+        "rest",
+        "restapi",
+        "simple",
+        "easy",
+        "lite"
+    ],
+    "homepage": "ibu.edu.ba",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sead Smailagic",
+            "email": "sead.smailagic@stu.ibu.edu.ba"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "flightphp/core": "^3.0"
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t public"
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.9"
+    }
+}
